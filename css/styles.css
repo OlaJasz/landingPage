@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'BEBAS___';
+    src: url('../fonts/BEBAS___-webfont.eot');
+    src: url('../fonts/BEBAS___-webfont.ttf');
+    src: url('../fonts/BEBAS___-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'desyrel';
+    src: url('../fonts/desyrel-webfont.eot');
+    src: url('../fonts/desyrel-webfont.ttf');
+    src: url('../fonts/desyrel-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.svg');
+    src: url('../fonts/OpenSans-Regular-webfont.ttf');
+    src: url('../fonts/OpenSans-Regular-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'OpenSans', Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+.mainWidth {
+    width: 75%;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 446px;
+    background-image: url("../images/bg.jpg");
+}
+.rightBox {
+    width: 400px;
+    color: white;
+    float: left;
+    margin-top: 50px;
+}
+.rightBox p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.icon img {
+    opacity: 0.70;
+}
+.hand {
+    float: right;
+    margin-top: 50px;
+}
+
+/*=========================END HEADER======================*/
+/*========================START Features===================*/
+
+.headline, .whatAbout {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;
+    margin-bottom: 30px;
+}
+.headline h2, .whatAbout h2, .pricing h2, .hi h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 25px;
+    color: black;
+}
+/*BOXY*/
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    width: 27%;
+    height: 180px;
+    -webkit-box-shadow: 2px 2px 5px -3px rgba(191,189,191,1);
+    -moz-box-shadow: 2px 2px 5px -3px rgba(191,189,191,1);
+    box-shadow: 2px 2px 5px -3px rgba(191,189,191,1);
+    float: left;
+    text-align: center;
+    color: gray;
+    line-height: 18px;
+    font-size: 10px;
+    padding: 40px 30px 10px 30px;
+}
+.kafle h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+}
+.features {
+    height: 700px;
+}
+
+/*=================END Features=====================*/
+/*==================START About=====================*/
+
+.about {
+    height: 300px;
+    background-color: #e0e0e0;
+    margin-top: 0;
+}
+.whatAbout {
+    width: 50%;
+    text-align: left;
+}
+.whatAbout p {
+    margin-bottom: 10px;
+}
+.arrow {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+/*===============ROBERT MAREK=================*/
+.robertMarek {
+    margin-bottom: 50px;
+}
+.robertMarek p {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.podpis {
+    display: block;
+    font-weight: bold;
+    font-family: desyrel, Helvetica, serif;
+    text-align: center;
+}
+/*===================================================*/
+/*=================START PRICING=======================*/
+.pricing {
+    height: 430px;
+    background-color: #e0e0e0;
+}
+.pricing p {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.pricing h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-collapse: collapse;
+    text-align: center;
+}
+sup {
+    vertical-align: top;
+    font-size: 12px;
+}
+table {
+    width: 100%;
+}
+th {
+    font-size: 18px;
+}
+tr {
+    font-size: 12px;
+    background-color: white;
+    color: grey;
+}
+th, tfoot {
+    background-color: #1898C5;
+    color: white;
+}
+tbody tr:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    font-family: BEBAS___, sans-serif;
+}
+tfoot tr:first-child {
+    background-color: #1898C5;
+    color: white;
+}
+table button {
+    background-color: #1376C5;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+}
+/*========================end PRICING ==================*/
+.hi h2 {
+    text-align: center;
+}
+.hi p {
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+/*======================Footer=====================*/
+footer {
+    padding-top: 20px;
+    background-color: #e0e0e0;
+    color: gray;
+    font-size: 12px;
+    height: 70px;
+}
+footer ul {
+    width: 550px;
+    margin: 0 auto;
+}
+footer li {
+    display: inline;
+    margin: 20px;
+}
+footer p {
+    margin-top: 20px;
+    text-align: center;
+}
