@@ -1,0 +1,35 @@
+@media screen and (min-width: 850px) and (max-width: 1020px){
+    .mainWidth {
+        width: 90%;
+    }
+    .hand {
+        height: 50%;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        width: 20%;
+        line-height: 16px;
+    }
+    .whatAbout {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .hand {
+        display: none;
+    }
+    .features {
+        height: 900px;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6 {
+        height: 150px;
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .kafle h3 {
+        font-size: 12px;
+    }
+    .whatAbout {
+        width: 90%;
+    }
+}
